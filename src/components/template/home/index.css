@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,300&display=swap');
+
+.home, .header {
+    background: #4fdaff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.searchBox {
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+/* .div1 { 
+    grid-area: 1 / 1 / 6 / 4; 
+} */
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    color: #f47932;;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.buttons {
+    max-width: 30%;
+    padding: 1rem;
+    background-color: #f47932;
+}
+
+.paper {
+    height: 13rem;
+    width: 40rem;
+    text-align: center;
+}
+
+.subTitle {
+    font-family: 'Nunito Sans', sans-serif;
+}
+

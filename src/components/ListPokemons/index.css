@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.content {
+    background-color: #4fdaff;
+    padding: 0 10px;
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+} 
+
+.title {
+    font-family: 'Anek Malayalam', sans-serif;
+    color: #f47932;
+    background: rgba( 255, 255, 255, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.pokemonsName{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.3rem;
+    color: #ff975b;
+    text-decoration: none;
+    background-color: #1976d2;
+    text-align: center;
+    border-radius: 6px;
+    padding: 1rem 0;
+    letter-spacing: 2px;
+}
